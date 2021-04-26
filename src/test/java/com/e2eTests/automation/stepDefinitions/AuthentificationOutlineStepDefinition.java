@@ -51,6 +51,13 @@ public class AuthentificationOutlineStepDefinition {
 		authentificationOutlinePage.clickLoginButton();
 	}
 
+
+	@Then("^Redirection vers l accueil$")
+	public void Redirection_vers_l_accueil() throws Throwable {
+		String text = authentificationOutlinePage.validAccess();
+		System.out.println(text);
+		Assert.assertTrue(text.contains("come"));
+	}
 	
 	@Then("^je verifie le message d erreur de la page connexion \"([^\"]*)\"$")
 	public void je_verifie_le_message_d_erreur_de_la_page_connexion(String arg1) throws Throwable {

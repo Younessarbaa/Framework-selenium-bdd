@@ -44,4 +44,6 @@ public class AuthentificationOutlinePage {
 	public String fillMessage() {
 		return erreur.getText();
 	}
+
+	public String validAccess() { return welcome.getText();}
 }

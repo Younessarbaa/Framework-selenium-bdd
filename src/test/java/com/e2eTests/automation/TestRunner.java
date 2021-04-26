@@ -1,6 +1,8 @@
 package com.e2eTests.automation;
 
 import java.io.File;
+import java.util.Date;
+
 
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;
@@ -17,7 +19,7 @@ import cucumber.api.junit.Cucumber;
 		features = {"src/specs/features"},
 		plugin = {"pretty","html:target/cucmber-html-report","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/orangeHRM-report.html"},
 		snippets = SnippetType.CAMELCASE,
-		tags = {"@ct-non-passant"})
+		tags = {"@jddok"})
 public class TestRunner {
 	
 	@AfterClass

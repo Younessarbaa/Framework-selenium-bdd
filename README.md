@@ -81,7 +81,7 @@ Les tests sont écrits dans le repertoire src/spec/feature avec le syntaxe Gherk
 
 
 # Reporting 
-Les résultats de test s’affichent dans un rapport Extent nommé Dartagnan.html dans le dossier Target / Cucumber-reports
+Les résultats de test s’affichent dans un rapport Extent nommé OrangeHRM.html dans le dossier Target / Cucumber-reports
 
 
 
